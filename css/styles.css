@@ -1,5 +1,7 @@
-*{ margin: 0px;
-    padding: 0px;  
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: Arial;
 }
 
 .cabeza{
@@ -28,29 +30,38 @@
 }
 
 
-.tarjetas {
-
-    width: 250px;
-}
-
-.rectangulo {
+.baraja{
     display: inline-block;
-    vertical-align: top;
+    position: relative;
+    margin: 100px 30px 100px 30px;
+    background-color: #F3F3F3;
+
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    
 }
 
 
-.rectangulo > * {
+.cora{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.centrado{
+    position: relative;
+    border-radius: 100px;
+    bottom: 25px;
+}
+
+
+.pie{
     display: block;
-    margin: 10px auto;
-    width: 250px; 
-}
+    width: auto;
+    height: 51px;
+    top: 972px;
 
-.centrado {
-    margin: 0 auto;
-    width: 250px;
-}
-
-.textoCarta {
-    word-wrap: break-word;
-
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
