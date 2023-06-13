@@ -360,3 +360,16 @@ label{
     align-content: center;
     align-items: center;
 }
+
+
+.botonaniadirCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonaniadir{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
